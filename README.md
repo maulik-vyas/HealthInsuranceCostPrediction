@@ -2,7 +2,7 @@
 
 Objective: To predict the insurance cost. Since this is a regression problem, I employed several models including Linear Regression, Support Vector Regressor, Random Forest Regressor, and Gradient Boosting Regressor. Among these, the Gradient Boosting Regressor yielded the best performance, achieving the lowest mean absolute error.
 
-Dataset: This dataset is taken from Kaggle: https://www.kaggle.com/datasets/mirichoi0218/insurance
+Dataset: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 This dataset has following columns:
 > - **age:** age of primary beneficiary
