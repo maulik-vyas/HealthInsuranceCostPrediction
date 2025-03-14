@@ -2,7 +2,7 @@
 
 It is extremely important to predict the health insurance cost for every individual so in this project, I have used several features of a person to predict their insurance cost.
 
-About Dataset: This dataset is taken from Kaggle: https://www.kaggle.com/datasets/mirichoi0218/insurance
+About Dataset![Image](https://github.com/user-attachments/assets/3cf4c1a3-427e-48eb-8a1b-80287d5652b9): This dataset is taken from Kaggle: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 This dataset has following columns:
 > - **age:** age of primary beneficiary
