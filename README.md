@@ -1,8 +1,8 @@
 # HealthInsuranceCostPrediction
 
-It is extremely important to predict the health insurance cost for every individual so in this project, I have used several features of a person to predict their insurance cost.
+Objective: To predict the insurance cost. Since this is a regression problem, I employed several models including Linear Regression, Support Vector Regressor, Random Forest Regressor, and Gradient Boosting Regressor. Among these, the Gradient Boosting Regressor yielded the best performance, achieving the lowest mean absolute error.
 
-About Dataset![Image](https://github.com/user-attachments/assets/3cf4c1a3-427e-48eb-8a1b-80287d5652b9): This dataset is taken from Kaggle: https://www.kaggle.com/datasets/mirichoi0218/insurance
+Dataset: This dataset is taken from Kaggle: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 This dataset has following columns:
 > - **age:** age of primary beneficiary
@@ -13,4 +13,7 @@ This dataset has following columns:
 > - **region:** the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
 > - **charges:** Individual medical costs billed by health insurance
 
-Since the objective of this project is to predict the insurance cost, it is a Regression problem so I tried Linear Regression, Support Vector Regressor, Random Forest Regressor, and Gradient Boosting Regressor. Out of them, Gradient Boosting Regressor performed the best with the least mean absolute error.
+Web-App: https://insurance-cost-prediction-app.nn.r.appspot.com/.
+
+Feel free to try the web application by yourself.
+
