@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <title>Health Insurance Cost Predictor</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Health Insurance Cost Predictor</h1>
+        <!-- <div class="icon-placeholder">🚀</div> Placeholder for a rocket icon; replace with an image if desired -->
+
+        <div class="github-code">
+            <a href="https://github.com/maulik-vyas/HealthInsuranceCostPrediction" target="_blank">
+                <span>Code</span>
+                <img title="GitHub" src="/static/images/github.png" alt="GitHub" class="github-icon">
+            </a>
+        </div>
+
+        <div class="data-source">
+            <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance" target="_blank">
+                <img title="GitHub" src="/static/images/data-source.svg" alt="Data Source" class="data-icon">
+                <span>Data</span>
+            </a>
+        </div>
+
+        <form id="predictionForm" method="POST" action="/predict">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="18" max="64" placeholder="Between 18 and 64" required>
+
+            <label for="sex">Sex</label>
+            <select id="sex" name="sex" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="bmi">BMI</label>
+            <input type="number" id="bmi" name="bmi" step="0.1" min="15" max="53" placeholder="Between 15 and 53" required>
+
+            <label for="children">Number of Children</label>
+            <input type="number" id="children" name="children" min="0" max="5" placeholder="Between 0 and 5" required>
+
+            <label for="smoker">Smoker</label>
+            <select id="smoker" name="smoker" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="region">Region</label>
+            <select id="region" name="region" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="northeast">Northeast</option>
+                <option value="northwest">Northwest</option>
+                <option value="southeast">Southeast</option>
+                <option value="southwest">Southwest</option>
+            </select>
+
+            <button type="submit">Predict Cost</button>
+        </form>
+
+        <div id="result">Predicted Cost: $No data</div>
+        <div id="disclaimer">Disclaimer: The result is based on the data that the model was trained on.</div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
