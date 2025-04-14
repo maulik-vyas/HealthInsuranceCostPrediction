@@ -4,6 +4,8 @@ Web-App: https://insurance-cost-prediction-app.nn.r.appspot.com/.
 
 Article: https://medium.com/@maulikvyas/end-to-end-insurance-cost-predictor-a-machine-learning-web-app-1545eef1e40a
 
+Dashboard: https://public.tableau.com/app/profile/maulik/viz/InsuranceCostInsightsDashboard/InsuranceCostInsightsDashboard
+
 Objective: To predict the insurance cost. 
 
 Overview: Since this is a regression problem, I employed several models including Linear Regression, Support Vector Regressor, Random Forest Regressor, and Gradient Boosting Regressor. Among these, the Gradient Boosting Regressor yielded the best performance, achieving the lowest mean absolute error.
